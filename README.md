@@ -1,18 +1,10 @@
-# HeartfeltTransfers
+# Nebula Studios Public API
 --------
-[![Latest Release](https://img.shields.io/github/v/release/3cxc/HeartfeltTransfers)](https://github.com/3cxc/HeartfeltTransfers)[![License](https://img.shields.io/github/license/3cxc/HeartfeltTransfers.svg)](https://github.com/3cxc/HeartfeltTransfers/blob/master/LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/Nebula-Studios-API)](https://github.com/Nebula-Studios/Nebula-Studios-API)[![License](https://img.shields.io/github/license/Nebula-Studios/Nebula-Studios-API.svg)](https://github.com/Nebula-Studios/Nebula-Studios-API/blob/master/LICENSE)
 
 **English** | [中文](https://github.com/3cxc/HeartfeltTransfers/blob/master/README_cn.md)
 
 ## Project information
-This project is a lightweight file download website based on PHP.
+This is the source code project for Nebula Studios Public API.
 
-It was developed for PTMU Servers.
-
-**Attention: Due to the discontinuation of PTMU servers, this project will also cease support and archiving.**
-
-## Usage method
-
-1. Download project files
-2. Edit the config/config_global.php and config/config_data.php
-3. Done!
+Developed based on [HeartfeltTransfers v3.3](https://github.com/3cxc/HeartfeltTransfers) and added more features.
