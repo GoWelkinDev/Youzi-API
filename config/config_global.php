@@ -2,25 +2,16 @@
    #全局配置文件
    #Global configuration file
 
-   # 下载站地址
-   # Download site address
-   $App_Website = "https://example.com";
+   # API地址
+   $App_Website = "https://api.nebulastudios.net";
 
-   # 下载站所有者
-   # Download site owner
-   $API_Owner = "example.com";
+   # API所有者
+   $API_Owner = "Nebula Studios";
 
-   # 下载站介绍
-   # Download site description
-   $API_Description = "example Download API";
+   # API介绍
+   $API_Description = "Nebula Studios Public API";
 
-   # 是否启用维护模式(维护模式下无法下载文件)
-   # Is maintenance mode enabled 
-   # files cannot be downloaded in maintenance mode
+   # 是否启用维护模式(维护模式下其他功能失效)
    $Anti_switch = false;
-
-   # 是否启用调试模式(仅开发者使用)
-   # Whether to enable debug mode (for developers only)
-   $Debug_mode = false;
-
+   
 ?>
