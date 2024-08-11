@@ -8,7 +8,7 @@
    require_once '../config/modules/module_download_config.php';
 
    
-   if ($Anti_switch){
+   if ($Anti_switch || $Download_action == false){
       exit(http_response_code(503));
    }
    

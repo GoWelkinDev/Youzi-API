@@ -8,9 +8,10 @@
    require_once '../config/modules/module_query_config.php';
 
    
-   if ($Anti_switch){
+   if ($Anti_switch || $Query_action == false){
       exit(http_response_code(503));
    }
+
    exit(query(getTypeForeach(array_keys($QueryType_array))));
 
    function query($tmp){
