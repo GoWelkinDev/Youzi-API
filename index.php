@@ -20,7 +20,7 @@
     "Runtime-Mode" => $RunTime_Mode,
     "Application-Author" => "3cxc",
     "Application-Description" => $API_Description,
-    "Application-Version" => "3.4.1",
+    "Application-Version" => "3.4.2",
     "Application-Owner" => $API_Owner);
 
   exit(formatJson($json_arr));
