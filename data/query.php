@@ -4,6 +4,7 @@
    require_once './function/function_json.php';
    require_once './function/function_query.php';
    require_once './function/function_foreach.php';
+   require_once '../config/config_global.php';
    require_once '../config/modules/module_query_config.php';
 
    
