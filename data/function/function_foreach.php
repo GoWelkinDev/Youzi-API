@@ -14,9 +14,11 @@
                         return $tmp;
                     }
                 }
-                exit(formatJson('{"code":403,"reason":"Illegal parameter content"}')); 
+                http_response_code(403);
+                exit(formatJson('{"code":403,"reason":"Invalid parameter."}')); 
             }
         }
-        exit(formatJson('{"code":403,"reason":"The \'type\' parameter is not specified"}'));
+        http_response_code(403);
+        exit(formatJson('{"code":403,"reason":"The \'type\' parameter is not specified."}'));
     }
 ?>
