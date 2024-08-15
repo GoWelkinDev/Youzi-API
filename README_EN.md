@@ -2,7 +2,7 @@
 --------
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/Youzi-API)](https://github.com/Nebula-Studios/Youzi-API)[![License](https://img.shields.io/github/license/Nebula-Studios/Youzi-API.svg)](https://github.com/Nebula-Studios/Youzi-API/blob/master/LICENSE)
 
-**中文** | [English](https://github.com/Nebula-Studios/Youzi-API/blob/master/README_EN.md)
+**English** | [中文](https://github.com/3cxc/HeartfeltTransfers/blob/master/README.md)
 
-## 项目信息
-本项目基于 [HeartfeltTransfers v3.3](https://github.com/3cxc/HeartfeltTransfers) 开发，并拥有更多功能和问题修复。
+## Project information
+This project is developed based on [HeartfeltTransfers v3.3](https://github.com/3cxc/HeartfeltTransfers) and has more features and problem fixes.
