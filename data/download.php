@@ -4,12 +4,14 @@
    require_once './function/function_json.php';
    require_once './function/function_query.php';
    require_once './function/function_foreach.php';
-   require_once '../config/config_global.php';
-   require_once '../config/modules/module_download_config.php';
+   require_once './function/function_anti.php';
 
-   
+   require_once '../config/config_global.php';
+   require_once '../config/modules/module_query_config.php';
+
    if ($Anti_switch || $Download_action == false){
-      exit(http_response_code(503));
+      http_response_code(503);
+      exit(formatJson('{"code":503,"reason":"The system is undergoing maintenance."}'));
    }
    
    exit(download(getTypeForeach(array_keys($download_array))));
@@ -19,7 +21,6 @@
 
       global $download_array;
 
-      // 文件路径，可以是相对路径或绝对路径
       $file_path = "../static/file/".$download_array[$tmp];
 
       // 确保文件存在
@@ -42,5 +43,6 @@
          exit;
       }
       http_response_code(404);
+      exit(formatJson('{"code":404,"reason":"The requested file does not exist."}'));
    }
 ?>
