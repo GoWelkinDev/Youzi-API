@@ -4,10 +4,9 @@
    require_once './function/function_json.php';
    require_once './function/function_query.php';
    require_once './function/function_foreach.php';
-   require_once './function/function_anti.php';
 
    require_once '../config/config_global.php';
-   require_once '../config/modules/module_query_config.php';
+   require_once '../config/modules/module_download_config.php';
 
    if ($Anti_switch || $Download_action == false){
       http_response_code(503);
