@@ -13,5 +13,8 @@
 
    # 是否启用维护模式(维护模式下其他功能失效)
    $Anti_switch = false;
-   
+
+   # 是否启用调试模式
+   $Debug_mode = false;
+
 ?>
