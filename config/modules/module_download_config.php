@@ -1,7 +1,7 @@
 <?php
     #下载配置文件
     #Download configuration file
-   
+
     #是否启用文件下载功能
     $Download_action = false;
 
