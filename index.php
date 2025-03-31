@@ -8,7 +8,7 @@
   $RunTime_Mode = "productionMode";
 
   if($Anti_switch){
-    $Status = "maintenanceMode";
+    $Status = "Down";
   }
   if($Debug_mode){
     $RunTime_Mode = "DebuggingMode";
