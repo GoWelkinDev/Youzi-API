@@ -1,8 +1,8 @@
 # Youzi API
 --------
-[![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/Youzi-API)](https://github.com/Nebula-Studios/Youzi-API)[![License](https://img.shields.io/github/license/Nebula-Studios/Youzi-API.svg)](https://github.com/Nebula-Studios/Youzi-API/blob/master/LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/GoWelkinDev/Youzi-API)](https://github.com/GoWelkinDev/Youzi-API)[![License](https://img.shields.io/github/license/GoWelkinDev/Youzi-API.svg)](https://github.com/GoWelkinDev/Youzi-API/blob/master/LICENSE)
 
-**English** | [中文](https://github.com/3cxc/HeartfeltTransfers/blob/master/README.md)
+**English** | [中文](https://github.com/GoWelkinDev/Youzi-API/blob/master/README.md)
 
 ## Project information
 This project is developed based on [HeartfeltTransfers v3.3](https://github.com/3cxc/HeartfeltTransfers) and has more features and problem fixes.
