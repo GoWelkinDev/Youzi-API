@@ -7,7 +7,7 @@
 
    require_once '../../config/config_global.php';
    require_once '../../config/modules/module_query_config.php';
-   
+
    if ($Anti_switch || $Query_action == false){
       http_response_code(503);
       exit(formatJson('{"code":503,"reason":"The system is undergoing maintenance."}'));
@@ -20,8 +20,8 @@
       global $QueryType_array;
 
       $json_arr = array("Version" => $QueryType_array[$tmp]);
-    
+
       exit(formatJson($json_arr));
-    
+
    }
 ?>

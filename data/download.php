@@ -12,7 +12,7 @@
       http_response_code(503);
       exit(formatJson('{"code":503,"reason":"The system is undergoing maintenance."}'));
    }
-   
+
    exit(download(getTypeForeach(array_keys($download_array))));
 
 
